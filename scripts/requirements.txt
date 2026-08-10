@@ -1,0 +1,1 @@
+# No third-party packages are required; all generators use Python's standard library.

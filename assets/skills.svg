@@ -1,0 +1,209 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 510" role="img" aria-labelledby="title desc">
+  <title id="title">Engineering capability matrix</title>
+  <desc id="desc">Yash Bhawarkar's selected technologies grouped into AI and machine learning, data engineering, backend, cloud and DevOps, and research.</desc>
+  <style>
+
+    svg {
+      --canvas: #f6f8fb;
+      --surface: #ffffff;
+      --surface-2: #eef3f8;
+      --border: #cbd5e1;
+      --text: #132238;
+      --muted: #5f7187;
+      --accent: #0f766e;
+      --accent-2: #2563eb;
+      --soft-accent: #ccfbf1;
+      --shadow: #94a3b8;
+    }
+    @media (prefers-color-scheme: dark) {
+      svg {
+        --canvas: #080f1b;
+        --surface: #0f1928;
+        --surface-2: #152235;
+        --border: #293a52;
+        --text: #e6edf7;
+        --muted: #91a4bb;
+        --accent: #5eead4;
+        --accent-2: #60a5fa;
+        --soft-accent: #123b3a;
+        --shadow: #020617;
+      }
+    }
+    .canvas { fill: var(--canvas); }
+    .surface { fill: var(--surface); stroke: var(--border); }
+    .surface-2 { fill: var(--surface-2); }
+    .text { fill: var(--text); }
+    .muted { fill: var(--muted); }
+    .accent { fill: var(--accent); }
+    .accent-stroke { stroke: var(--accent); }
+    .border-stroke { stroke: var(--border); }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+    .sans { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+
+    .heading { font-size: 25px; font-weight: 760; letter-spacing: -.4px; }
+    .subheading { font-size: 12px; font-weight: 700; letter-spacing: 1.7px; }
+    .number { font-size: 11px; font-weight: 700; }
+    .card-title { font-size: 14px; font-weight: 760; letter-spacing: .7px; }
+    .item { font-size: 13px; font-weight: 550; }
+    .skill { opacity: 0; animation: skill-in .5s ease-out forwards; }
+    .card { animation: card-in .65s ease-out both; }
+    .marker { animation: marker 3.4s ease-in-out infinite; }
+    @keyframes skill-in { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes card-in { from { opacity: 0; } to { opacity: 1; } }
+    @keyframes marker { 0%,100% { opacity: .55; } 50% { opacity: 1; } }
+  </style>
+  <rect class="canvas" width="1200" height="510" rx="20"/>
+  <text class="sans heading text" x="30" y="47">Engineering capability matrix</text>
+  <text class="mono subheading muted" x="1170" y="45" text-anchor="end">SELECTED TOOLS / FOCUSED PRACTICE</text>
+  <path class="border-stroke" d="M30 66H1170"/>
+
+  <g class="card">
+    <rect class="surface" x="30" y="92" width="555" height="180" rx="14"/>
+    <rect class="accent marker" x="30" y="114" width="4" height="33" rx="2"/>
+    <text class="mono number muted" x="54" y="127">01</text>
+    <text class="sans card-title text" x="92" y="128">AI / ML</text>
+    <path class="border-stroke" d="M54 150H561" opacity=".75"/>
+
+      <g class="skill" style="animation-delay:0.080s">
+        <circle class="accent" cx="58" cy="169" r="3"/>
+        <text class="mono item text" x="70" y="174">PyTorch</text>
+      </g>
+      <g class="skill" style="animation-delay:0.115s">
+        <circle class="accent" cx="317" cy="169" r="3"/>
+        <text class="mono item text" x="329" y="174">TensorFlow</text>
+      </g>
+      <g class="skill" style="animation-delay:0.150s">
+        <circle class="accent" cx="58" cy="199" r="3"/>
+        <text class="mono item text" x="70" y="204">scikit-learn</text>
+      </g>
+      <g class="skill" style="animation-delay:0.185s">
+        <circle class="accent" cx="317" cy="199" r="3"/>
+        <text class="mono item text" x="329" y="204">LangChain</text>
+      </g>
+      <g class="skill" style="animation-delay:0.220s">
+        <circle class="accent" cx="58" cy="229" r="3"/>
+        <text class="mono item text" x="70" y="234">FAISS</text>
+      </g>
+      <g class="skill" style="animation-delay:0.255s">
+        <circle class="accent" cx="317" cy="229" r="3"/>
+        <text class="mono item text" x="329" y="234">Chroma</text>
+      </g>
+      <g class="skill" style="animation-delay:0.290s">
+        <circle class="accent" cx="58" cy="259" r="3"/>
+        <text class="mono item text" x="70" y="264">Azure OpenAI</text>
+      </g>
+      <g class="skill" style="animation-delay:0.325s">
+        <circle class="accent" cx="317" cy="259" r="3"/>
+        <text class="mono item text" x="329" y="264">RAG</text>
+      </g>
+  </g>
+  <g class="card">
+    <rect class="surface" x="615" y="92" width="555" height="180" rx="14"/>
+    <rect class="accent marker" x="615" y="114" width="4" height="33" rx="2"/>
+    <text class="mono number muted" x="639" y="127">02</text>
+    <text class="sans card-title text" x="677" y="128">DATA ENGINEERING</text>
+    <path class="border-stroke" d="M639 150H1146" opacity=".75"/>
+
+      <g class="skill" style="animation-delay:0.160s">
+        <circle class="accent" cx="643" cy="169" r="3"/>
+        <text class="mono item text" x="655" y="174">PySpark</text>
+      </g>
+      <g class="skill" style="animation-delay:0.195s">
+        <circle class="accent" cx="902" cy="169" r="3"/>
+        <text class="mono item text" x="914" y="174">Databricks</text>
+      </g>
+      <g class="skill" style="animation-delay:0.230s">
+        <circle class="accent" cx="643" cy="199" r="3"/>
+        <text class="mono item text" x="655" y="204">SQL</text>
+      </g>
+      <g class="skill" style="animation-delay:0.265s">
+        <circle class="accent" cx="902" cy="199" r="3"/>
+        <text class="mono item text" x="914" y="204">Delta Lake</text>
+      </g>
+      <g class="skill" style="animation-delay:0.300s">
+        <circle class="accent" cx="643" cy="229" r="3"/>
+        <text class="mono item text" x="655" y="234">Entity resolution</text>
+      </g>
+      <g class="skill" style="animation-delay:0.335s">
+        <circle class="accent" cx="902" cy="229" r="3"/>
+        <text class="mono item text" x="914" y="234">Data pipelines</text>
+      </g>
+  </g>
+  <g class="card">
+    <rect class="surface" x="30" y="298" width="360" height="180" rx="14"/>
+    <rect class="accent marker" x="30" y="320" width="4" height="33" rx="2"/>
+    <text class="mono number muted" x="54" y="333">03</text>
+    <text class="sans card-title text" x="92" y="334">BACKEND</text>
+    <path class="border-stroke" d="M54 356H366" opacity=".75"/>
+
+      <g class="skill" style="animation-delay:0.240s">
+        <circle class="accent" cx="58" cy="375" r="3"/>
+        <text class="mono item text" x="70" y="380">Python</text>
+      </g>
+      <g class="skill" style="animation-delay:0.275s">
+        <circle class="accent" cx="58" cy="405" r="3"/>
+        <text class="mono item text" x="70" y="410">Node.js</text>
+      </g>
+      <g class="skill" style="animation-delay:0.310s">
+        <circle class="accent" cx="58" cy="435" r="3"/>
+        <text class="mono item text" x="70" y="440">JavaScript</text>
+      </g>
+      <g class="skill" style="animation-delay:0.345s">
+        <circle class="accent" cx="58" cy="465" r="3"/>
+        <text class="mono item text" x="70" y="470">REST APIs</text>
+      </g>
+  </g>
+  <g class="card">
+    <rect class="surface" x="420" y="298" width="360" height="180" rx="14"/>
+    <rect class="accent marker" x="420" y="320" width="4" height="33" rx="2"/>
+    <text class="mono number muted" x="444" y="333">04</text>
+    <text class="sans card-title text" x="482" y="334">CLOUD / DEVOPS</text>
+    <path class="border-stroke" d="M444 356H756" opacity=".75"/>
+
+      <g class="skill" style="animation-delay:0.320s">
+        <circle class="accent" cx="448" cy="375" r="3"/>
+        <text class="mono item text" x="460" y="380">Azure</text>
+      </g>
+      <g class="skill" style="animation-delay:0.355s">
+        <circle class="accent" cx="610" cy="375" r="3"/>
+        <text class="mono item text" x="622" y="380">AWS</text>
+      </g>
+      <g class="skill" style="animation-delay:0.390s">
+        <circle class="accent" cx="448" cy="405" r="3"/>
+        <text class="mono item text" x="460" y="410">GCP</text>
+      </g>
+      <g class="skill" style="animation-delay:0.425s">
+        <circle class="accent" cx="610" cy="405" r="3"/>
+        <text class="mono item text" x="622" y="410">Docker</text>
+      </g>
+      <g class="skill" style="animation-delay:0.460s">
+        <circle class="accent" cx="448" cy="435" r="3"/>
+        <text class="mono item text" x="460" y="440">Git</text>
+      </g>
+  </g>
+  <g class="card">
+    <rect class="surface" x="810" y="298" width="360" height="180" rx="14"/>
+    <rect class="accent marker" x="810" y="320" width="4" height="33" rx="2"/>
+    <text class="mono number muted" x="834" y="333">05</text>
+    <text class="sans card-title text" x="872" y="334">RESEARCH</text>
+    <path class="border-stroke" d="M834 356H1146" opacity=".75"/>
+
+      <g class="skill" style="animation-delay:0.400s">
+        <circle class="accent" cx="838" cy="375" r="3"/>
+        <text class="mono item text" x="850" y="380">Applied ML</text>
+      </g>
+      <g class="skill" style="animation-delay:0.435s">
+        <circle class="accent" cx="838" cy="405" r="3"/>
+        <text class="mono item text" x="850" y="410">Single-cell RNA-seq</text>
+      </g>
+      <g class="skill" style="animation-delay:0.470s">
+        <circle class="accent" cx="838" cy="435" r="3"/>
+        <text class="mono item text" x="850" y="440">scGen / scVIDR</text>
+      </g>
+      <g class="skill" style="animation-delay:0.505s">
+        <circle class="accent" cx="838" cy="465" r="3"/>
+        <text class="mono item text" x="850" y="470">Model evaluation</text>
+      </g>
+  </g>
+  <text class="mono muted" x="30" y="497" font-size="10">A cohesive toolkit for data-intensive, production-minded AI systems.</text>
+</svg>
