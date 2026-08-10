@@ -2,7 +2,7 @@ from svg_helpers import theme_css, write_svg
 
 
 def build_header() -> str:
-    roles = ["AI Engineer", "Data Scientist", "ML Engineer", "Software Engineer"]
+    roles = ["AI Engineer", "ML Engineer", "Data Engineer", "Software Engineer"]
     role_nodes = []
     for index, role in enumerate(roles):
         role_nodes.append(
@@ -11,8 +11,8 @@ def build_header() -> str:
 
     return f"""
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
-  <title id="title">Yash Bhawarkar — developer profile</title>
-  <desc id="desc">Animated engineering header identifying Yash as an AI Engineer, Data Scientist, Software Engineer, and Michigan State University graduate student.</desc>
+  <title id="title">Yash Bhawarkar — AI/ML Engineer, Data Engineer, and Software Engineer</title>
+  <desc id="desc">Animated engineering header identifying Yash as an AI and machine-learning engineer, data engineer, software engineer, and Michigan State University graduate student.</desc>
   <style>
     {theme_css()}
     .grid {{ stroke: var(--border); opacity: .22; }}
@@ -69,7 +69,7 @@ def build_header() -> str:
     <text class="sans name text" x="80" y="198">Yash Bhawarkar</text>
   </g>
   <g class="intro delay-1">
-    <text class="sans role-summary text" x="82" y="235">AI Engineer | Data Scientist | Software Engineer</text>
+    <text class="sans role-summary text" x="82" y="235">AI/ML Engineer • Data Engineer • Software Engineer</text>
   </g>
   <g class="intro delay-2">
     <text class="sans degree muted" x="82" y="270">M.S. Computer Science @ Michigan State University</text>

@@ -2,7 +2,7 @@ from svg_helpers import text, theme_css, write_svg
 
 
 LEFT_ROWS = [
-    ("OS", "Developer"),
+    ("Role", "AI / ML Engineer"),
     ("Location", "Michigan, USA"),
     ("Education", "M.S. Computer Science @ MSU"),
     ("Focus", "AI • ML • GenAI • Data"),
@@ -21,7 +21,7 @@ RIGHT_ROWS = [
 def row_markup(rows: list[tuple[str, str]], x: int, value_x: int, start_y: int, delay_offset: int) -> str:
     markup = []
     for index, (label, value) in enumerate(rows):
-        y = start_y + index * 55
+        y = start_y + index * 50
         delay = (delay_offset + index) * 0.09
         markup.append(
             f"""
@@ -36,9 +36,9 @@ def row_markup(rows: list[tuple[str, str]], x: int, value_x: int, start_y: int, 
 
 def build_card() -> str:
     return f"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 470" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" role="img" aria-labelledby="title desc">
   <title id="title">Yash Bhawarkar system profile</title>
-  <desc id="desc">A terminal-inspired card describing Yash's location, education, technical focus, languages, cloud platforms, data tools, and AI frameworks.</desc>
+  <desc id="desc">A terminal-inspired card describing Yash's AI and machine-learning engineering role, location, education, technical focus, languages, cloud platforms, data tools, and AI frameworks.</desc>
   <style>
     {theme_css()}
     .bar-title {{ font-size: 14px; font-weight: 700; letter-spacing: 1px; }}
@@ -61,8 +61,8 @@ def build_card() -> str:
     </linearGradient>
   </defs>
 
-  <rect class="canvas" width="1200" height="470" rx="20"/>
-  <rect class="surface" x="24" y="20" width="1152" height="426" rx="15"/>
+  <rect class="canvas" width="1200" height="440" rx="20"/>
+  <rect class="surface" x="24" y="20" width="1152" height="396" rx="15"/>
   <rect class="surface-2" x="25" y="21" width="1150" height="55" rx="14"/>
   <path class="border-stroke" d="M25 76H1175"/>
   <circle cx="51" cy="48" r="5" fill="#ef6b73"/>
@@ -73,16 +73,16 @@ def build_card() -> str:
   <text class="mono muted" x="1070" y="52" font-size="11">PROCESS ACTIVE</text>
 
   <rect class="scan" x="0" y="77" width="220" height="2" fill="url(#scan-gradient)"/>
-  <text class="mono section muted" x="60" y="116">SYSTEM PROFILE</text>
-  <text class="mono section muted" x="635" y="116">TOOLCHAIN</text>
-  <path class="border-stroke" d="M600 101V415" stroke-dasharray="3 7" opacity=".75"/>
+  <text class="mono section muted" x="60" y="112">SYSTEM PROFILE</text>
+  <text class="mono section muted" x="635" y="112">TOOLCHAIN</text>
+  <path class="border-stroke" d="M600 97V383" stroke-dasharray="3 7" opacity=".75"/>
 
-  {row_markup(LEFT_ROWS, 60, 180, 165, 0)}
-  {row_markup(RIGHT_ROWS, 635, 765, 165, 2)}
+  {row_markup(LEFT_ROWS, 60, 180, 155, 0)}
+  {row_markup(RIGHT_ROWS, 635, 765, 155, 2)}
 
-  <path class="border-stroke" d="M60 418H1140" opacity=".7"/>
-  <text class="mono muted" x="60" y="438" font-size="11">$ profile --mode production-minded --output dependable-systems</text>
-  <rect class="pulse accent" x="477" y="425" width="7" height="14" rx="1"/>
+  <path class="border-stroke" d="M60 383H1140" opacity=".7"/>
+  <text class="mono muted" x="60" y="405" font-size="11">$ profile --mode production-minded --output dependable-systems</text>
+  <rect class="pulse accent" x="477" y="392" width="7" height="14" rx="1"/>
 </svg>
 """
 

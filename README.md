@@ -1,10 +1,9 @@
 <p align="center">
-  <img src="./assets/header.svg" width="100%" alt="Yash Bhawarkar — AI Engineer, Data Scientist, and Software Engineer; M.S. Computer Science at Michigan State University" />
+  <img src="./assets/header.svg" width="100%" alt="Yash Bhawarkar — AI/ML Engineer, Data Engineer, and Software Engineer; M.S. Computer Science at Michigan State University" />
 </p>
 
 <p align="center">
-  I build production-minded AI systems, retrieval-augmented applications, machine-learning pipelines,<br />
-  data platforms, and scalable software that turns research ideas into dependable engineering.
+  I build production AI systems, RAG applications, ML pipelines, and data platforms that turn ideas into reliable software.
 </p>
 
 ## About Me
@@ -30,6 +29,26 @@
 - **Single-cell RNA-seq machine learning**, including preprocessing, dimensionality reduction, visualization, and scGen/scVIDR perturbation prediction
 - Backend systems and APIs that turn AI capabilities into **reliable, usable software**
 
+## Featured Projects
+
+### 🤖 AI Startup Intelligence Platform
+
+Production-oriented AI and data platform for company intelligence, entity resolution, embedding retrieval, taxonomy classification, and LLM-assisted validation.
+
+`Python` `PySpark` `Databricks` `Delta Lake` `Azure OpenAI`
+
+### 🧬 Single-Cell Perturbation Prediction
+
+Machine-learning pipeline for single-cell RNA-seq perturbation prediction using scGen and scVIDR, including preprocessing, latent-space analysis, PCA/UMAP, and held-out cell-type evaluation.
+
+`Python` `PyTorch` `Scanpy` `scVI` `scGen`
+
+### 🔎 RAG Assistant
+
+Retrieval-augmented generation application using semantic search and context-grounded LLM responses.
+
+`Python` `LangChain` `FAISS` `Chroma`
+
 ## Research / AI Interests
 
 **Generative AI • Retrieval & LLM Evaluation • Entity Resolution • Representation Learning • Data-Centric AI • Single-Cell Perturbation Modeling • Computer Vision • Geospatial Machine Learning**
@@ -40,7 +59,7 @@
   <img src="./assets/contribution-graph.svg" width="100%" alt="Yash Bhawarkar GitHub contribution heatmap for the last 53 weeks" />
 </p>
 
-The graph is generated from GitHub's public contribution calendar and refreshed daily by this repository—no hosted statistics service and no personal access token.
+Contribution activity, refreshed automatically each day.
 
 ## Connect With Me
 

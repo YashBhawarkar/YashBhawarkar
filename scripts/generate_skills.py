@@ -18,11 +18,11 @@ class Card:
 
 
 CARDS = (
-    Card("AI / ML", "01", ("PyTorch", "TensorFlow", "scikit-learn", "LangChain", "FAISS", "Chroma", "Azure OpenAI", "RAG"), 30, 92, 555, 180),
-    Card("DATA ENGINEERING", "02", ("PySpark", "Databricks", "SQL", "Delta Lake", "Entity resolution", "Data pipelines"), 615, 92, 555, 180),
-    Card("BACKEND", "03", ("Python", "Node.js", "JavaScript", "REST APIs"), 30, 298, 360, 180, 1),
-    Card("CLOUD / DEVOPS", "04", ("Azure", "AWS", "GCP", "Docker", "Git"), 420, 298, 360, 180, 2),
-    Card("RESEARCH", "05", ("Applied ML", "Single-cell RNA-seq", "scGen / scVIDR", "Model evaluation"), 810, 298, 360, 180, 1),
+    Card("AI / ML", "01", ("PyTorch", "TensorFlow", "scikit-learn", "LangChain", "FAISS", "Chroma", "Azure OpenAI", "RAG"), 30, 80, 555, 185),
+    Card("DATA ENGINEERING", "02", ("PySpark", "Databricks", "SQL", "Delta Lake", "Entity Resolution", "Data Pipelines"), 615, 80, 555, 185),
+    Card("BACKEND", "03", ("Python", "Node.js", "JavaScript", "REST APIs"), 30, 280, 360, 180, 1),
+    Card("CLOUD / DEVOPS", "04", ("Azure", "AWS", "GCP", "Docker", "Git"), 420, 280, 360, 180, 2),
+    Card("RESEARCH", "05", ("Applied ML", "Single-cell RNA-seq", "scGen / scVIDR", "Model Evaluation"), 810, 280, 360, 180, 1),
 )
 
 
@@ -64,7 +64,7 @@ def build_card(card: Card) -> str:
 
 def build_skills() -> str:
     return f"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 510" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 490" role="img" aria-labelledby="title desc">
   <title id="title">Engineering capability matrix</title>
   <desc id="desc">Yash Bhawarkar's selected technologies grouped into AI and machine learning, data engineering, backend, cloud and DevOps, and research.</desc>
   <style>
@@ -81,12 +81,12 @@ def build_skills() -> str:
     @keyframes card-in {{ from {{ opacity: 0; }} to {{ opacity: 1; }} }}
     @keyframes marker {{ 0%,100% {{ opacity: .55; }} 50% {{ opacity: 1; }} }}
   </style>
-  <rect class="canvas" width="1200" height="510" rx="20"/>
+  <rect class="canvas" width="1200" height="490" rx="20"/>
   <text class="sans heading text" x="30" y="47">Engineering capability matrix</text>
   <text class="mono subheading muted" x="1170" y="45" text-anchor="end">SELECTED TOOLS / FOCUSED PRACTICE</text>
   <path class="border-stroke" d="M30 66H1170"/>
   {''.join(build_card(card) for card in CARDS)}
-  <text class="mono muted" x="30" y="497" font-size="10">A cohesive toolkit for data-intensive, production-minded AI systems.</text>
+  <text class="mono muted" x="30" y="480" font-size="10">A cohesive toolkit for data-intensive, production-minded AI systems.</text>
 </svg>
 """
 

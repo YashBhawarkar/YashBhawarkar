@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
-  <title id="title">Yash Bhawarkar — developer profile</title>
-  <desc id="desc">Animated engineering header identifying Yash as an AI Engineer, Data Scientist, Software Engineer, and Michigan State University graduate student.</desc>
+  <title id="title">Yash Bhawarkar — AI/ML Engineer, Data Engineer, and Software Engineer</title>
+  <desc id="desc">Animated engineering header identifying Yash as an AI and machine-learning engineer, data engineer, software engineer, and Michigan State University graduate student.</desc>
   <style>
 
     svg {
@@ -94,7 +94,7 @@
     <text class="sans name text" x="80" y="198">Yash Bhawarkar</text>
   </g>
   <g class="intro delay-1">
-    <text class="sans role-summary text" x="82" y="235">AI Engineer | Data Scientist | Software Engineer</text>
+    <text class="sans role-summary text" x="82" y="235">AI/ML Engineer • Data Engineer • Software Engineer</text>
   </g>
   <g class="intro delay-2">
     <text class="sans degree muted" x="82" y="270">M.S. Computer Science @ Michigan State University</text>
@@ -107,5 +107,5 @@
     <circle class="signal accent" cx="25" cy="59" r="4"/>
     <text class="mono muted" x="20" y="88" font-size="9">ROLE STREAM / 4 MODES</text>
   </g>
-  <text class="role mono accent" x="948" y="195" style="animation-delay:0s">AI Engineer</text><text class="role mono accent" x="948" y="195" style="animation-delay:4s">Data Scientist</text><text class="role mono accent" x="948" y="195" style="animation-delay:8s">ML Engineer</text><text class="role mono accent" x="948" y="195" style="animation-delay:12s">Software Engineer</text>
+  <text class="role mono accent" x="948" y="195" style="animation-delay:0s">AI Engineer</text><text class="role mono accent" x="948" y="195" style="animation-delay:4s">ML Engineer</text><text class="role mono accent" x="948" y="195" style="animation-delay:8s">Data Engineer</text><text class="role mono accent" x="948" y="195" style="animation-delay:12s">Software Engineer</text>
 </svg>
