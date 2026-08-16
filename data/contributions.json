@@ -2,41 +2,6 @@
   "days": [
     {
       "count": 1,
-      "date": "2025-08-10",
-      "level": 2
-    },
-    {
-      "count": 0,
-      "date": "2025-08-11",
-      "level": 0
-    },
-    {
-      "count": 1,
-      "date": "2025-08-12",
-      "level": 2
-    },
-    {
-      "count": 0,
-      "date": "2025-08-13",
-      "level": 0
-    },
-    {
-      "count": 0,
-      "date": "2025-08-14",
-      "level": 0
-    },
-    {
-      "count": 0,
-      "date": "2025-08-15",
-      "level": 0
-    },
-    {
-      "count": 2,
-      "date": "2025-08-16",
-      "level": 3
-    },
-    {
-      "count": 1,
       "date": "2025-08-17",
       "level": 2
     },
@@ -1851,14 +1816,19 @@
       "level": 0
     },
     {
-      "count": 4,
+      "count": 11,
       "date": "2026-08-15",
-      "level": 2
+      "level": 4
+    },
+    {
+      "count": 0,
+      "date": "2026-08-16",
+      "level": 0
     }
   ],
   "range": {
-    "end": "2026-08-15",
-    "start": "2025-08-10"
+    "end": "2026-08-16",
+    "start": "2025-08-17"
   },
   "source": "github-public-contribution-calendar",
   "status": "ok",
