@@ -1826,13 +1826,18 @@
       "level": 2
     },
     {
-      "count": 0,
+      "count": 3,
       "date": "2026-08-17",
+      "level": 1
+    },
+    {
+      "count": 0,
+      "date": "2026-08-18",
       "level": 0
     }
   ],
   "range": {
-    "end": "2026-08-17",
+    "end": "2026-08-18",
     "start": "2025-08-17"
   },
   "source": "github-public-contribution-calendar",
