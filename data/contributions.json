@@ -1,41 +1,6 @@
 {
   "days": [
     {
-      "count": 1,
-      "date": "2025-10-19",
-      "level": 2
-    },
-    {
-      "count": 0,
-      "date": "2025-10-20",
-      "level": 0
-    },
-    {
-      "count": 0,
-      "date": "2025-10-21",
-      "level": 0
-    },
-    {
-      "count": 0,
-      "date": "2025-10-22",
-      "level": 0
-    },
-    {
-      "count": 0,
-      "date": "2025-10-23",
-      "level": 0
-    },
-    {
-      "count": 0,
-      "date": "2025-10-24",
-      "level": 0
-    },
-    {
-      "count": 0,
-      "date": "2025-10-25",
-      "level": 0
-    },
-    {
       "count": 0,
       "date": "2025-10-26",
       "level": 0
@@ -1851,14 +1816,19 @@
       "level": 2
     },
     {
-      "count": 0,
+      "count": 4,
       "date": "2026-10-24",
+      "level": 2
+    },
+    {
+      "count": 0,
+      "date": "2026-10-25",
       "level": 0
     }
   ],
   "range": {
-    "end": "2026-10-24",
-    "start": "2025-10-19"
+    "end": "2026-10-25",
+    "start": "2025-10-26"
   },
   "source": "github-public-contribution-calendar",
   "status": "ok",
